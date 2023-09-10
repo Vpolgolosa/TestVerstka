@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Egor Oreshnikov">
+    <title>Dell Homepage</title>
+    <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="container">
+    <div id="navbar" class="flex">
+        <div id="nav-brand"><a href="#"><img src="assets/Navbar/dell%20logo.png"  alt="Delllogo"></a></div>
+        <ul id="nav-left">
+            <li class="nav-item-left float-l">
+                <a href="#" class="nav-text roboto-r fs15">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-item-left float-l">
+                <a href="#" class="nav-text roboto-r fs15">КАТАЛОГ</a>
+            </li>
+            <li class="nav-item-left float-l">
+                <a href="#" class="nav-text roboto-r fs15">НОВОСТИ</a>
+            </li>
+            <li class="nav-item-left float-l">
+                <a href="#" class="nav-text roboto-r fs15">НАШ АСЦ</a>
+            </li>
+            <li class="nav-item-left float-l">
+                <a href="#" class="nav-text roboto-r fs15">КОНТАКТЫ</a>
+            </li>
+            <li id="nav-search" class="float-l">
+                <a class="relative" href="#">
+                    <img src="assets/Navbar/search.png"  alt="Search">
+                </a>
+            </li>
+        </ul>
+        <ul id="nav-right">
+            <li class="nav-item-right float-l">
+                <a href="#"><img src="assets/Navbar/man.png"  alt="User"></a>
+            </li>
+            <li class="nav-item-right float-l">
+                <a href="#"><img src="assets/Navbar/5g.png"  alt="Stat"></a>
+            </li>
+            <li class="nav-item-right float-l">
+                <a href="#"><img src="assets/Navbar/heart.png"  alt="Favourites"></a>
+            </li>
+            <li class="nav-item-right float-l">
+                <a class="relative" href="#">
+                    <img src="assets/Navbar/bag.png"  alt="Cart"/>
+                    <img id="bcount" class="absolute" src="assets/Navbar/bagellipse.png" alt="CartCount"/>
+                    <div id="bcount2" class="roboto-b fs12 absolute">3</div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<main>
+
+    <div id="slider" class="overhid relative">
+        <div id="scroll" class="absolute">
+            <p class="roboto-l fs16">Scroll to catalog</p>
+            <img src="assets/Screen1/scrolldown.png" alt="Scroll icon">
+        </div>
+        <div id="slides" class="flex">
+            <div class="slide bggrey1 slide-bg-text relative">
+                <div id="slide-inner" class="flex">
+                    <div id="slide-content">
+                        <p id="stext1" class="roboto-l fs18">Новое поступление</p>
+                        <p id="stext2" class="roboto-r fs50">Лучшие товары от компании Dell</p>
+                        <div class="flex">
+                            <img src="assets/button.png" alt="SlideButton">
+                            <p class="more-text roboto-r fs16">Подробнее</p>
+                        </div>
+                    </div>
+                    <img src="assets/Screen1/laptop1.png" alt="SlideImage">
+                </div>
+            </div>
+            <div class="slide bggrey2 slide-bg-laptop relative">
+                <p id="slide-content-2" class="roboto-r fs25">Выгодное предложение от Dell</p>
+            </div>
+        </div>
+        <div id="slider-controls" class="absolute flex">
+            <div id="slider-dots" class="flex">
+                <a class="slider-dot-active"><img src="assets/Screen1/slider%20dot%20active.png" alt="ActiveSlide"></a>
+                <a class="slider-dot"><img src="assets/Screen1/slider%20dot.png" alt="NotActiveSlide"></a>
+                <a class="slider-dot"><img src="assets/Screen1/slider%20dot.png" alt="NotActiveSlide"></a>
+                <a class="slider-dot"><img src="assets/Screen1/slider%20dot.png" alt="NotActiveSlide"></a>
+                <a class="slider-dot"><img src="assets/Screen1/slider%20dot.png" alt="NotActiveSlide"></a>
+            </div>
+            <a><img src="assets/Screen1/slider%20arrow.png" alt="NextSlide"></a>
+        </div>
+    </div>
+
+    <div id="catalog" class="container overvis">
+        <div class="cat-row flex">
+            <div class="cat-box marginlside relative">
+                <p id="cattitle" class="absolute roboto-r fs50">Каталог товаров от Dell</p>
+                <p id="cattext" class="roboto-l fs18">Наша компания является зарегистрированным и официальным партнером Dell в России.</p>
+                <div class="flex">
+                    <img src="assets/button.png" alt="CatalogButton">
+                    <p class="more-text roboto-r fs16">В каталог</p>
+                </div>
+            </div>
+            <div class="cat-box bggrey1 marginmid relative">
+                <p class="boxnum roboto-t fs25">01</p>
+                <img id="boximg1" class="absolute" src="assets/Screen2/img1.png" alt="ProductImage1">
+                <p class="boxcount roboto-l fs18">105 товаров</p>
+                <p class="boxname roboto-r fs25">Ноутбуки</p>
+            </div>
+            <div class="cat-box bggrey2 marginrside relative">
+                <p class="boxnum roboto-t fs25">02</p>
+                <img id="boximg2" class="absolute" src="assets/Screen2/img2.png" alt="ProductImage2">
+                <img id="boximg2sh" class="absolute" src="assets/Screen2/img2shadow.png" alt="ProductShadow2">
+                <p class="boxcount roboto-l fs18">65 товаров</p>
+                <p class="boxname roboto-r fs25">Персональные компьютеры</p>
+            </div>
+        </div>
+        <div class="cat-row flex">
+            <div class="cat-box bggrey1 marginlside relative">
+                <p class="boxnum roboto-t fs25">03</p>
+                <img id="boximg3" class="absolute" src="assets/Screen2/img3.png" alt="ProductImage3">
+                <img id="boximg3sh" class="absolute" src="assets/Screen2/img3shadow.png" alt="ProductShadow3">
+                <p class="boxcount roboto-l fs18">13 товаров</p>
+                <p class="boxname roboto-r fs25">Cерверы</p>
+            </div>
+            <div class="cat-box bggrey2 marginmid relative">
+                <p class="boxnum roboto-t fs25">04</p>
+                <img id="boximg4" class="absolute" src="assets/Screen2/img4.png" alt="ProductImage4">
+                <img id="boximg4sh" class="absolute" src="assets/Screen2/img4shadow.png" alt="ProductShadow4">
+                <p class="boxcount roboto-l fs18">2345 товаров</p>
+                <p class="boxname roboto-r fs25">Dell EMC</p>
+            </div>
+            <div class="cat-box bggrey1 marginrside relative">
+                <p class="boxnum roboto-t fs25">05</p>
+                <img id="boximg5" class="absolute" src="assets/Screen2/img5.png" alt="ProductImage5">
+                <p class="boxcount roboto-l fs18">195 товаров</p>
+                <p class="boxname roboto-r fs25">Запасные части к Dell EMC</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="advant" class="bggrey1 adv-bg-text">
+        <div id="adv-inner" class="container overvis">
+            <div class="adv-row flex">
+                <div class="adv-top-box relative adv-top-margin">
+                    <img id="adv-img" class="absolute" src="assets/Screen3/laptop.png" alt="MainImg">
+                </div>
+                <div class="adv-top-box">
+                    <p id="adv-title" class="roboto-r fs50">Наши преимущества</p>
+                    <p id="adv-desc" class="roboto-r fs18">Оптимизация мощностей (расходов, социальных выплат и т.п.) позволили компании на 4,7% понизить цены по сравнению с конкурентами</p>
+                    <div class="flex">
+                        <img src="assets/button.png" alt="CatalogButton">
+                        <p class="more-text roboto-r fs16">Оставить заявку</p>
+                    </div>
+                </div>
+            </div>
+            <div class="adv-row flex">
+                <div class="adv-bot-box relative overhid bgblack1 adv-bot-margin">
+                    <img class="adv-bb-corner1 absolute" src="assets/Screen3/vector.png" alt="CornerLine">
+                    <div id="adv-bb-icon1" class="adv-bb-icon bgblack2">
+                        <img src="assets/Screen3/icon1.png" alt="AdvIcon1">
+                    </div>
+                    <p class="adv-bb-name1 euclid-b fs22">Самые выгодные и низкие цены</p>
+                    <p class="adv-bb-desc euclid-l fs16">В наличии широкий ассортимент, а также доступные цены на ноутбуки Dell </p>
+                </div>
+                <div class="adv-bot-box relative overhid bgblack1 adv-bot-margin">
+                    <img class="adv-bb-corner1 absolute" src="assets/Screen3/vector.png" alt="CornerLine">
+                    <div class="adv-bb-icon bgblack2">
+                        <img src="assets/Screen3/icon2.png" alt="AdvIcon1">
+                    </div>
+                    <p class="adv-bb-name2 euclid-b fs22">Авторизованный сервисный центр DELL</p>
+                    <p class="adv-bb-desc euclid-l fs16">Сертифицированный сервисный центр по ремонту техники Dell в России и странах СНГ</p>
+                </div>
+                <div class="adv-bot-box relative overhid bgblack1 adv-bot-margin">
+                    <img class="adv-bb-corner2 absolute" src="assets/Screen3/vector.png" alt="CornerLine">
+                    <div class="adv-bb-icon bgblack2">
+                        <img src="assets/Screen3/icon3.png" alt="AdvIcon1">
+                    </div>
+                    <p class="adv-bb-name2 euclid-b fs22">Высокий уровень технической экспертизы</p>
+                    <p class="adv-bb-desc euclid-l fs16">Мы прошли аттестацию в виде тестирования, где показали высокий уровень знаний</p>
+                </div>
+                <div class="adv-bot-box relative overhid bgblack1">
+                    <img class="adv-bb-corner2 absolute" src="assets/Screen3/vector.png" alt="CornerLine">
+                    <div class="adv-bb-icon bgblack2">
+                        <img src="assets/Screen3/icon4.png" alt="AdvIcon1">
+                    </div>
+                    <p class="adv-bb-name2 euclid-b fs22">Официальный партнер DELL</p>
+                    <p class="adv-bb-desc euclid-l fs16">Официальный поставщик продукции DELL в России и странах СНГ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p></p>
+</footer>
+<script src="script.js"></script>
+</body></html>

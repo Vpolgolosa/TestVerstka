@@ -1,0 +1,542 @@
+/*@media (min-width: 1920px) {*/
+/*    */
+/*}*/
+@font-face {
+    font-family: Roboto;
+    src: url("assets/Font/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("assets/Font/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("assets/Font/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("assets/Font/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url("assets/Font/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: Euclid-Light;
+    src: url("assets/Font/EuclidCircularA-Light.ttf");
+}
+
+@font-face {
+    font-family: Euclid-Bold;
+    src: url("assets/Font/EuclidCircularA-Bold.ttf");
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.container{
+    padding-left: 252px;
+    padding-right: 235px;
+}
+
+.flex{
+    display: flex;
+}
+
+.float-l{
+    float: left;
+}
+
+.roboto-r{
+    font-family: Roboto, sans-serif;
+    color: #292D32;
+}
+
+.roboto-b{
+    font-family: Roboto-Bold, sans-serif;
+    color: white;
+}
+
+.roboto-l{
+    font-family: Roboto-Light, sans-serif ;
+    color: #838383;
+}
+
+.roboto-t{
+    font-family: Roboto-Thin, sans-serif ;
+    color: #292D32;
+}
+
+.roboto-bl{
+    font-family: Roboto-Black, sans-serif ;
+    color: #292D32;
+}
+
+.euclid-l{
+    font-family: Euclid-Light, sans-serif ;
+    color: #B7B7B7;
+}
+
+.euclid-b{
+    font-family: Euclid-Bold, sans-serif ;
+    color: #FFFFFF;
+}
+
+.fs12{
+    font-size: 12px;
+}
+
+.fs15{
+    font-size: 15px;
+}
+
+.fs16{
+    font-size: 16px;
+}
+
+.fs18{
+    font-size: 18px;
+}
+
+.fs22{
+    font-size: 22px;
+}
+
+.fs25{
+    font-size: 25px;
+}
+
+.fs50{
+    font-size: 50px;
+}
+
+.bggrey1{
+    background-color: #F2F2F2;
+}
+
+.bggrey2{
+    background-color: #F9F9F9;
+}
+
+.bgblack1{
+    background-color: #292D32;
+}
+
+.bgblack2{
+    background-color: #343A41;
+}
+
+.overhid{
+    overflow: hidden;
+}
+
+.overvis{
+    overflow: visible;
+}
+
+/*####################################NAVBAR#####################################*/
+
+nav{
+    height: 123px;
+}
+
+.nav-text{
+    letter-spacing: 0.05px;
+}
+
+#navbar{
+    padding-top: 27px;
+    padding-left: 8px;
+    align-items: center;
+}
+
+#nav-brand{
+    margin-right: 60px;
+}
+
+#nav-left{
+    padding-bottom: 1.5px;
+}
+
+.nav-item-left{
+    margin-right: 45px;
+}
+
+#nav-search{
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+#nav-right{
+    margin-left: 350px;
+    padding-bottom: 1px;
+}
+
+.nav-item-right{
+     margin-left: 30px;
+ }
+
+#bcount{
+    top: -36px;
+    left: 33px;
+}
+
+#bcount2{
+    width: 16px;
+    height: 16px;
+    top: -34.7px;
+    left: 37.7px;
+}
+
+/*####################################NAVBAR#####################################*/
+/*####################################SLIDER#####################################*/
+
+#slider{
+    height: 683px;
+    margin-bottom: 164px;
+}
+
+#scroll{
+    top: 357px;
+    left: 260px;
+    z-index: 3;
+}
+
+#scroll p{
+    margin-left: 3px;
+    margin-bottom: 16px;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+}
+
+#slides{
+    height: 683px;
+    width: 2822px;
+}
+
+.slide{
+    width: 1411px;
+    height: 683px;
+}
+
+#stext1{
+    margin-bottom: 15px;
+    margin-top: 179px;
+}
+
+#stext2{
+    margin-bottom: 62px;
+    margin-top: 0;
+    line-height: 59px;
+}
+
+.more-text{
+    padding-left: 12px;
+}
+
+#slide-inner{
+    width: 961px;
+    padding-left: 390px;
+    padding-top: 74px;
+    margin-bottom: 54px;
+}
+
+#slide-content{
+    width: 404px;
+}
+
+.slide-bg-text{
+    background-image: url("assets/Screen1/dell bkg.png");
+    background-repeat: no-repeat;
+    background-position: top 97.4px left 260px;
+}
+
+#slide-content-2{
+    width: 181px;
+    padding-left: 40px;
+    padding-top: 321px;
+    margin: 0;
+}
+
+.slide-bg-laptop{
+    background-image: url("assets/Screen1/laptop2.png");
+    background-repeat: no-repeat;
+}
+
+#slider-controls{
+    top: 498px;
+    left: 1302px;
+}
+
+#slider-dots{
+    width: 69px;
+    height: 9px;
+    align-content: center;
+    margin-right: 80px;
+}
+
+.slider-dot{
+    margin-right: 10px;
+    height: 5px;
+}
+
+.slider-dot-active{
+    margin-right: 10px;
+    padding-top: 2px;
+}
+
+/*####################################SLIDER#####################################*/
+/*####################################CATALOG####################################*/
+
+#catalog{
+    height: 782px;
+    margin-bottom: 180px;
+}
+
+.cat-row{
+    padding-left: 8px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+}
+
+.cat-box{
+    height: 371px;
+    width: 440px;
+    border-radius: 20px;
+}
+
+.marginlside{
+    margin-right: 20px;
+}
+
+.marginmid{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.marginrside{
+    margin-left: 20px;
+}
+
+#cattitle{
+    line-height: 50px;
+    width: 388px;
+    top: -52px;
+}
+
+#cattext{
+    line-height: 27px;
+    padding-top: 112px;
+    width: 372px;
+    margin-bottom: 45px;
+}
+
+.boxnum{
+    margin-top: 0;
+    padding-top: 44px;
+    padding-left:40px;
+    margin-bottom: 191px;
+}
+
+#boximg1{
+    top: -10px;
+    left: 12px;
+}
+
+#boximg2{
+    top: -21px;
+    left: 115px;
+    z-index: 2;
+}
+
+#boximg2sh{
+    z-index: 1;
+    top: 165px;
+    left: 88px;
+}
+
+#boximg3{
+    z-index: 2;
+    top: 81px;
+    left: 51px;
+}
+
+#boximg3sh{
+    top: 85px;
+    left: 37px;
+    z-index: 1;
+}
+
+#boximg4{
+    z-index: 2;
+    top: 59px;
+    left: 75px;
+}
+
+#boximg4sh{
+    z-index: 1;
+    top: 179px;
+    left: 59px;
+}
+
+#boximg5{
+    top: 38px;
+    left: 87px;
+}
+
+.boxcount{
+    padding-left:40px;
+    margin-bottom: 8px;
+}
+
+.boxname{
+    margin-top: 0;
+    padding-left:40px;
+}
+
+/*####################################CATALOG####################################*/
+/*###################################ADVATAGES###################################*/
+
+#advant{
+    height: 962px;
+}
+
+.adv-bg-text{
+    background-image: url("assets/Screen3/best quality.png");
+    background-repeat: no-repeat;
+    background-position: top 164px left 9px;
+}
+
+#adv-inner{
+    padding-top: 87px;
+    width: 1417px;
+    height: 829px;
+}
+
+#adv-img{
+    left: -80px;
+}
+
+.adv-row{
+    padding-left: 8px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 48px;
+}
+
+.adv-top-box{
+    width: 687px;
+    height: 492px;
+}
+
+.adv-top-margin{
+    margin-right: 27px;
+}
+
+#adv-title{
+    margin-top: 0;
+    padding-top: 86px;
+    margin-bottom: 32px;
+}
+
+#adv-desc{
+    width: 488px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.adv-bot-box{
+    width: 330px;
+    height: 289px;
+    border-radius: 18px;
+}
+
+.adv-bb-corner1{
+    left: 186.5px;
+    top: 0;
+}
+
+.adv-bb-corner2{
+    left: 186.5px;
+    top: -3px;
+}
+
+.adv-bb-icon{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.adv-bb-icon img{
+    height: 36px;
+    width: 36px;
+    padding-left: 17px;
+    padding-top: 17px;
+}
+
+#adv-bb-icon1{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#adv-bb-icon1 img{
+    height: 44px;
+    width: 44px;
+    padding-left: 14px;
+    padding-top: 17px;
+}
+
+.adv-bb-name1{
+    width: 205px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+
+.adv-bb-name2{
+    width: 276px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+
+
+.adv-bb-desc{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.adv-bot-margin{
+    margin-right: 27px;
+}
